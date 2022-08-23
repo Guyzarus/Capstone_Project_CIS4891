@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Design Solutions</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="webfonts/all.min.css" />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/HDS-icon.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Welcome to Home Design Solutions</h1>
+        <br />
+        <p>
+          <br />
+          <br />We pride ourselves here at Home Design Solutions on one
+          thing:<br />
+          <br />
+          Customer Satisfaction.<br />
+          <br />
+          Come take a look at our high quality products and services and allow
+          us to help you create your perfect home.<br />
+        </p>
+        <a href="about.html" class="heroBtn">Visit To Know More About Us</a>
+        <p></p>
+        <p>Please follow us on Facebook and Instagram</p>
+      </div>
+    </section>
+
+    <!-- -----Products----- -->
+
+    <section class="products">
+      <h1>Products We Offer</h1>
+      <p>
+        We offer many product for home renovation! <br />
+        From kitchen appliances to beautiful tile flooring, we have what you
+        need to renovate your home
+      </p>
+      <br />
+      <p>Take a look at some of the products we offer</p>
+
+      <div class="row">
+        <div class="product-col">
+          <h3>Kitchen</h3>
+          <p>
+            <button class="modalBtn" id="dishBtn">Dishwashers</button>
+          </p>
+          <div id="dishModal" class="modal">
+            <div class="modal-content">
+              <span class="dishClose">&times;</span>
+              <p>
+                <img src="images/dishwasher1.png" />
+              </p>
+              <p>
+                <img src="images/dishwasher2.png" />
+              </p>
+              <p>
+                <img src="images/dishwasher3.png" />
+              </p>
+              <p>
+                <img src="images/dishwasher4.png" />
+              </p>
+              <p>
+                <img src="images/dishwasher5.png" />
+              </p>
+              <p>
+                <img src="images/dishwasher6.png" />
+              </p>
+              <p></p>
+            </div>
+          </div>
+          <p>
+            <button class="modalBtn" id="microBtn">Microwaves</button>
+          </p>
+          <div id="microModal" class="modal">
+            <div class="modal-content">
+              <span class="microClose">&times;</span>
+              <p>
+                <img src="images/microwave1.png" />
+              </p>
+              <p>
+                <img src="images/microwave2.png" />
+              </p>
+              <p>
+                <img src="images/microwave3.png" />
+              </p>
+              <p>
+                <img src="images/microwave4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <p>
+            <button class="modalBtn" id="ovenBtn">Ovens/Stoves</button>
+          </p>
+          <div id="ovenModal" class="modal">
+            <div class="modal-content">
+              <span class="ovenClose">&times;</span>
+              <p>
+                <img src="images/oven1.png" />
+              </p>
+              <p>
+                <img src="images/oven2.png" />
+              </p>
+              <p>
+                <img src="images/oven3.png" />
+              </p>
+              <p>
+                <img src="images/oven4.png" />
+              </p>
+              <p>
+                <img src="images/stove1.png" />
+              </p>
+              <p>
+                <img src="images/stove2.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <p>
+            <button class="modalBtn" id="fridgeBtn">Refrigerators</button>
+          </p>
+          <div id="fridgeModal" class="modal">
+            <div class="modal-content">
+              <span class="fridgeClose">&times;</span>
+              <p>
+                <img src="images/fridge1.png" />
+              </p>
+              <p>
+                <img src="images/fridge2.png" />
+              </p>
+              <p>
+                <img src="images/fridge3.png" />
+              </p>
+              <p>
+                <img src="images/fridge4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="product-col">
+          <h3>Bathroom</h3>
+          <p>
+            <button class="modalBtn" id="faucetBtn">Faucets</button>
+          </p>
+          <div id="faucetModal" class="modal">
+            <div class="modal-content">
+              <span class="faucetClose">&times;</span>
+              <p>
+                <img src="images/faucet1.png" />
+              </p>
+              <p>
+                <img src="images/faucet2.png" />
+              </p>
+              <p>
+                <img src="images/faucet3.png" />
+              </p>
+              <p>
+                <img src="images/faucet4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <p>
+            <button class="modalBtn" id="sinkBtn">Sinks</button>
+          </p>
+          <div id="sinkModal" class="modal">
+            <div class="modal-content">
+              <span class="sinkClose">&times;</span>
+              <p>
+                <img src="images/sink1.png" />
+              </p>
+              <p>
+                <img src="images/sink2.png" />
+              </p>
+              <p>
+                <img src="images/sink3.png" />
+              </p>
+              <p>
+                <img src="images/sink4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <p>
+            <button class="modalBtn" id="headBtn">Showerheads</button>
+          </p>
+          <div id="headModal" class="modal">
+            <div class="modal-content">
+              <span class="headClose">&times;</span>
+              <p>
+                <img src="images/head1.png" />
+              </p>
+              <p>
+                <img src="images/head2.png" />
+              </p>
+              <p>
+                <img src="images/head3.png" />
+              </p>
+              <p>
+                <img src="images/head4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <p>
+            <button class="modalBtn" id="toiletBtn">Toilets</button>
+          </p>
+          <div id="toiletModal" class="modal">
+            <div class="modal-content">
+              <span class="toiletClose">&times;</span>
+              <p>
+                <img src="images/toilet1.png" />
+              </p>
+              <p>
+                <img src="images/toilet2.png" />
+              </p>
+              <p>
+                <img src="images/toilet3.png" />
+              </p>
+              <p>
+                <img src="images/toilet4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="product-col">
+          <h3>Flooring</h3>
+          <p>
+            <button class="modalBtn" id="eBtn">Engineered Tile</button>
+          </p>
+          <div id="eModal" class="modal">
+            <div class="modal-content">
+              <span class="eClose">&times;</span>
+              <p>
+                <img src="images/etile1.png" />
+              </p>
+              <p>
+                <img src="images/etile2.png" />
+              </p>
+              <p>
+                <img src="images/etile3.png" />
+              </p>
+              <p>
+                <img src="images/etile4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <p>
+            <button class="modalBtn" id="vBtn">Vinyl Tile</button>
+          </p>
+          <div id="vModal" class="modal">
+            <div class="modal-content">
+              <span class="vClose">&times;</span>
+              <p>
+                <img src="images/vtile1.png" />
+              </p>
+              <p>
+                <img src="images/vtile2.png" />
+              </p>
+              <p>
+                <img src="images/vtile3.png" />
+              </p>
+              <p>
+                <img src="images/vtile4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <p>
+            <button class="modalBtn" id="wBtn">Wood Tile</button>
+          </p>
+          <div id="wModal" class="modal">
+            <div class="modal-content">
+              <span class="wClose">&times;</span>
+              <p>
+                <img src="images/wtile1.png" />
+              </p>
+              <p>
+                <img src="images/wtile2.png" />
+              </p>
+              <p>
+                <img src="images/wtile3.png" />
+              </p>
+              <p>
+                <img src="images/wtile4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="product-col">
+          <h3>Cabinets/Counter Tops</h3>
+          <p>
+            <button class="modalBtn" id="doorBtn">Door Style</button>
+          </p>
+          <div id="doorModal" class="modal">
+            <div class="modal-content">
+              <span class="doorClose">&times;</span>
+              <p>
+                <img src="images/door1.png" />
+              </p>
+              <p>
+                <img src="images/door2.png" />
+              </p>
+              <p>
+                <img src="images/door3.png" />
+              </p>
+              <p>
+                <img src="images/door4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <p>
+            <button class="modalBtn" id="storeBtn">Storage</button>
+          </p>
+          <div id="storeModal" class="modal">
+            <div class="modal-content">
+              <span class="storeClose">&times;</span>
+              <p>
+                <img src="images/store1.png" />
+              </p>
+              <p>
+                <img src="images/store2.png" />
+              </p>
+              <p>
+                <img src="images/store3.png" />
+              </p>
+              <p>
+                <img src="images/store4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <p>
+            <button class="modalBtn" id="topBtn">Counter Tops</button>
+          </p>
+          <div id="topModal" class="modal">
+            <div class="modal-content">
+              <span class="topClose">&times;</span>
+              <p>
+                <img src="images/ctop1.png" />
+              </p>
+              <p>
+                <img src="images/ctop2.png" />
+              </p>
+              <p>
+                <img src="images/ctop3.png" />
+              </p>
+              <p>
+                <img src="images/ctop4.png" />
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -Services -->
+    <section class="services">
+      <h1>Service we Offer</h1>
+      <p>Along with products, we will install any appliances purchased</p>
+      <div class="row">
+        <div class="service-col">
+          <img src="images/bathroom.png" />
+          <div class="layer">
+            <h3>Bathroom Renovations</h3>
+          </div>
+        </div>
+        <div class="service-col">
+          <img src="images/kitchen.png" />
+          <div class="layer">
+            <h3>Kitchen Renovations</h3>
+          </div>
+        </div>
+        <div class="service-col">
+          <img src="images/bedroom.png" />
+          <div class="layer">
+            <h3>Bedroom Renovations</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --Locations-- -->
+
+    <section class="location">
+      <h1>Our Locations</h1>
+      <p>
+        We have 5 locations spread throughout Nevada, Arizona and New Mexico
+      </p>
+      <div class="row">
+        <div class="location-col">
+          <img src="images/phoenix.png" />
+          <div class="layer">
+            <h3>
+              101 Sedalia Drive <br />
+              Phoenix, AZ 85001 <br />
+              <br />
+              Phone: 602-KITCHEN <br />
+              Fax: 602-555-1212
+            </h3>
+          </div>
+        </div>
+        <div class="location-col">
+          <img src="images/scottsdale.png" />
+          <div class="layer">
+            <h3>
+              901 S. Sedona Way <br />
+              Scottsdale, AZ 85001 <br />
+              <br />
+              Phone: 602-KITCHEN <br />
+              Fax: 602-555-1212
+            </h3>
+          </div>
+        </div>
+        <div class="location-col">
+          <img src="images/tuscon.png" />
+          <div class="layer">
+            <h3>
+              8023 Sedalia Drive <br />
+              Tuscon, AZ 85001 <br />
+              <br />
+              Phone: 602-KITCHEN <br />
+              Fax: 602-555-1212
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="location-col">
+          <img src="images/alberquerque.png" />
+          <div class="layer">
+            <h3>
+              983 Cibola Street <br />
+              Alberquerque, Nm 85001 <br />
+              <br />
+              Phone: 602-KITCHEN <br />
+              Fax: 602-555-1212
+            </h3>
+            <p></p>
+          </div>
+        </div>
+        <div class="location-col">
+          <img src="images/lasvegas.png" />
+          <div class="layer">
+            <h3>
+              1001 Big Win Lane <br />
+              Las Vegas, Nv 85001 <br />
+              <br />
+              Phone: 602-KITCHEN <br />
+              Fax: 602-555-1212
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---Testimonials--- -->
+    <section class="testimonials">
+      <h1>Customer Comments</h1>
+      <p>See what our customers say about us!</p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/user1.png" />
+          <div>
+            <p>
+              "Wow, Home Design Solutions totally fucked up my home! Never let
+              them work on your house, Period!
+            </p>
+            <h3>Michael "The Situation" Sorrentino</h3>
+            <i class="far fa-star"></i> <i class="far fa-star"></i>
+            <i class="far fa-star"></i> <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/user1.png" />
+          <div>
+            <p>
+              "Wow, Home Design Solutions totally fucked up my home! Never let
+              them work on your house, Period!
+            </p>
+            <h3>Michael "The Situation" Sorrentino</h3>
+            <i class="far fa-star"></i> <i class="far fa-star"></i>
+            <i class="far fa-star"></i> <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----Contact Form---- -->
+
+    <section class="contact">
+      <h1>Contact Us For A Free contact</h1>
+      <a href="" class="heroBtn">Contact Us</a>
+    </section>
+
+    <!-- ----Footer---- -->
+
+    <section class="footer">
+      <h4>Follow Us On Social Media</h4>
+      <div class="icon">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-pinterest-square"></i> <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter-square"></i>
+      </div>
+    </section>
+
+    <!-- ---JavaScript for menu -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+      /*JavaScript for Modal*/
+
+      // Get the modal for dishwasher
+      var dishModal = document.getElementById("dishModal");
+
+      // Get the button that opens the modal
+      var dishBtn = document.getElementById("dishBtn");
+
+      // Get the <span> element that closes the modal
+      var dishSpan = document.getElementsByClassName("dishClose")[0];
+
+      // When the user clicks the button, open the modal
+      dishBtn.onclick = function () {
+        dishModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      dishSpan.onclick = function () {
+        dishModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == dishModal) {
+          dishModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for microwave
+      var microModal = document.getElementById("microModal");
+
+      // Get the button that opens the modal
+      var microBtn = document.getElementById("microBtn");
+
+      // Get the <span> element that closes the modal
+      var microSpan = document.getElementsByClassName("microClose")[0];
+
+      // When the user clicks the button, open the modal
+      microBtn.onclick = function () {
+        microModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      microSpan.onclick = function () {
+        microModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == microModal) {
+          microModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for oven
+      var ovenModal = document.getElementById("ovenModal");
+
+      // Get the button that opens the modal
+      var ovenBtn = document.getElementById("ovenBtn");
+
+      // Get the <span> element that closes the modal
+      var ovenSpan = document.getElementsByClassName("ovenClose")[0];
+
+      // When the user clicks the button, open the modal
+      ovenBtn.onclick = function () {
+        ovenModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      ovenSpan.onclick = function () {
+        ovenModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == ovenModal) {
+          ovenModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for fridge
+      var fridgeModal = document.getElementById("fridgeModal");
+
+      // Get the button that opens the modal
+      var fridgeBtn = document.getElementById("fridgeBtn");
+
+      // Get the <span> element that closes the modal
+      var fridgeSpan = document.getElementsByClassName("fridgeClose")[0];
+
+      // When the user clicks the button, open the modal
+      fridgeBtn.onclick = function () {
+        fridgeModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      fridgeSpan.onclick = function () {
+        fridgeModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == fridgeModal) {
+          fridgeModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for faucet
+      var faucetModal = document.getElementById("faucetModal");
+
+      // Get the button that opens the modal
+      var faucetBtn = document.getElementById("faucetBtn");
+
+      // Get the <span> element that closes the modal
+      var faucetSpan = document.getElementsByClassName("faucetClose")[0];
+
+      // When the user clicks the button, open the modal
+      faucetBtn.onclick = function () {
+        faucetModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      faucetSpan.onclick = function () {
+        faucetModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == faucetModal) {
+          faucetModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for sink
+      var sinkModal = document.getElementById("sinkModal");
+
+      //Get the button that opens the modal
+      var sinkBtn = document.getElementById("sinkBtn");
+
+      //Get the <span> element that closes the modal
+      var sinkSpan = document.getElementsByClassName("sinkClose")[0];
+
+      //When the user clicks the button, open the modal
+      sinkBtn.onclick = function () {
+        sinkModal.style.display = "block";
+      };
+
+      //When the user clicks on <span> (x), close the modal
+      sinkSpan.onclick = function () {
+        sinkModal.style.display = "none";
+      };
+
+      //When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == sinkModal) {
+          sinkModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for showerhead
+      var headModal = document.getElementById("headModal");
+
+      // Get the button that opens the modal
+      var headBtn = document.getElementById("headBtn");
+
+      // Get the <span> element that closes the modal
+      var headSpan = document.getElementsByClassName("headClose")[0];
+
+      // When the user clicks the button, open the modal
+      headBtn.onclick = function () {
+        headModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      headSpan.onclick = function () {
+        headModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == headModal) {
+          headModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for toilet
+      var toiletModal = document.getElementById("toiletModal");
+
+      // Get the button that opens the modal
+      var toiletBtn = document.getElementById("toiletBtn");
+
+      // Get the <span> element that closes the modal
+      var toiletSpan = document.getElementsByClassName("toiletClose")[0];
+
+      // When the user clicks the button, open the modal
+      toiletBtn.onclick = function () {
+        toiletModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      toiletSpan.onclick = function () {
+        toiletModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == toiletModal) {
+          toiletModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for e-tile
+      var eModal = document.getElementById("eModal");
+
+      // Get the button that opens the modal
+      var eBtn = document.getElementById("eBtn");
+
+      // Get the <span> element that closes the modal
+      var eSpan = document.getElementsByClassName("eClose")[0];
+
+      // When the user clicks the button, open the modal
+      eBtn.onclick = function () {
+        eModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      eSpan.onclick = function () {
+        eModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == eModal) {
+          eModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for v-tile
+      var vModal = document.getElementById("vModal");
+
+      // Get the button that opens the modal
+      var vBtn = document.getElementById("vBtn");
+
+      // Get the <span> element that closes the modal
+      var vSpan = document.getElementsByClassName("vClose")[0];
+
+      // When the user clicks the button, open the modal
+      vBtn.onclick = function () {
+        vModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      vSpan.onclick = function () {
+        vModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == vModal) {
+          vModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for w-tile
+      var wModal = document.getElementById("wModal");
+
+      // Get the button that opens the modal
+      var wBtn = document.getElementById("wBtn");
+
+      // Get the <span> element that closes the modal
+      var wSpan = document.getElementsByClassName("wClose")[0];
+
+      // When the user clicks the button, open the modal
+      wBtn.onclick = function () {
+        wModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      wSpan.onclick = function () {
+        wModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == wModal) {
+          wModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for door
+      var doorModal = document.getElementById("doorModal");
+
+      // Get the button that opens the modal
+      var doorBtn = document.getElementById("doorBtn");
+
+      // Get the <span> element that closes the modal
+      var doorSpan = document.getElementsByClassName("doorClose")[0];
+
+      // When the user clicks the button, open the modal
+      doorBtn.onclick = function () {
+        doorModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      doorSpan.onclick = function () {
+        doorModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == doorModal) {
+          doorModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for storage
+      var storeModal = document.getElementById("storeModal");
+
+      // Get the button that opens the modal
+      var storeBtn = document.getElementById("storeBtn");
+
+      // Get the <span> element that closes the modal
+      var storeSpan = document.getElementsByClassName("storeClose")[0];
+
+      // When the user clicks the button, open the modal
+      storeBtn.onclick = function () {
+        storeModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      storeSpan.onclick = function () {
+        storeModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == storeModal) {
+          storeModal.style.display = "none";
+        }
+      };
+
+      //Get the modal for ctop
+      var topModal = document.getElementById("topModal");
+
+      // Get the button that opens the modal
+      var topBtn = document.getElementById("topBtn");
+
+      // Get the <span> element that closes the modal
+      var topSpan = document.getElementsByClassName("topClose")[0];
+
+      // When the user clicks the button, open the modal
+      topBtn.onclick = function () {
+        topModal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      topSpan.onclick = function () {
+        topModal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == topModal) {
+          topModal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
